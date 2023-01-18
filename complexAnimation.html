@@ -9,8 +9,6 @@ background-attachment: fixed;
 }
 
 .mice{
-position:fixed;
-left:10px;
 width: 30px;
 }
 
@@ -24,7 +22,7 @@ width: 300px;
 }
 
 .thirdImage{
-width: 300px;
+width: 200px;
 }
 </style>
 </head>
@@ -32,34 +30,37 @@ width: 300px;
 <body background = 'images/bg.jpg'>
 <h1 align='center'> NK's Complex Animation </h1>
 
+<div style = "margin-top: -4%">
 <marquee>
 <img src='images/birds.gif' width='17%'/>
 </marquee>
+</div>
 
-<!--
+<div style = "margin-left: 45%; margin-top: 17%">
 <marquee scrollamount='0'>
 <img class='mice' src='assets/c.gif' />
 </marquee>
--->
-<div style = "position:relative; top:40px;">
-<marquee scrollamount='25'>
+</div>
+
+<div style = "position:relative; top:-25%;">
+<marquee scrollamount='27'>
 <img class='firstImage' src='images/1.gif' />
 </marquee>
 </div>
 
-<div style = "position:relative; top:-250px;">
-<marquee direction='right' scrollamount='35'>
+<div style = "position:relative; top:-63%;">
+<marquee direction='right' scrollamount='38'>
 <img class='secImage' src='images/2.gif' />
 </marquee>
 </div>
 
-<div style = "position:relative; top:-550px;">
+<div style = "position:relative; top:-85%;">
 <marquee direction='right' scrollamount='20'>
 <img class='thirdImage' src='images/3.gif' />
 </marquee>
 </div>
 
-<div style = "position:relative; top:-700px;">
+<div style = "position:relative; top:-108%;">
 <marquee scrollamount='20'>
 <img class='firstImage' src='images/4.gif' />
 </marquee>
