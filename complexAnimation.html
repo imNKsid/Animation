@@ -1,70 +1,70 @@
 <html>
-<head>
-<title> Complex Animation </title>
-<style>
-body{
-background-repeat: no-repeat;
-background-size: 100% 100%;
-background-attachment: fixed;
-}
+  <head>
+    <title>Complex Animation</title>
+    <style>
+      body {
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        overflow-y: hidden;
+      }
 
-.mice{
-width: 30px;
-}
+      .mice {
+        width: 30px;
+      }
 
-.firstImage{
-transform: scalex(-1);
-width: 400px;
-}
+      .firstImage {
+        transform: scalex(-1);
+        width: 400px;
+      }
 
-.secImage{
-width: 300px;
-}
+      .secImage {
+        width: 300px;
+      }
 
-.thirdImage{
-width: 200px;
-}
-</style>
-</head>
+      .thirdImage {
+        width: 200px;
+      }
+    </style>
+  </head>
 
-<body background = 'images/bg.jpg'>
-<h1 align='center'> NK's Complex Animation </h1>
+  <body background="images/bg.jpg">
+    <h1 align="center">NK's Complex Animation</h1>
 
-<div style = "margin-top: -4%">
-<marquee>
-<img src='images/birds.gif' width='17%'/>
-</marquee>
-</div>
+    <div style="margin-top: -4%">
+      <marquee>
+        <img src="images/birds.gif" width="17%" />
+      </marquee>
+    </div>
 
-<div style = "margin-left: 45%; margin-top: 17%">
-<marquee scrollamount='0'>
-<img class='mice' src='assets/c.gif' />
-</marquee>
-</div>
+    <div style="margin-left: 45%; margin-top: 17%">
+      <marquee scrollamount="0">
+        <img class="mice" src="assets/c.gif" />
+      </marquee>
+    </div>
 
-<div style = "position:relative; top:-20%;">
-<marquee scrollamount='27'>
-<img class='firstImage' src='images/1.gif' />
-</marquee>
-</div>
+    <div style="position: relative; top: -25%">
+      <marquee scrollamount="27">
+        <img class="firstImage" src="images/1.gif" />
+      </marquee>
+    </div>
 
-<div style = "position:relative; top:-63%;">
-<marquee direction='right' scrollamount='38'>
-<img class='secImage' src='images/2.gif' />
-</marquee>
-</div>
+    <div style="position: relative; top: -63%">
+      <marquee direction="right" scrollamount="38">
+        <img class="secImage" src="images/2.gif" />
+      </marquee>
+    </div>
 
-<div style = "position:relative; top:-85%;">
-<marquee direction='right' scrollamount='20'>
-<img class='thirdImage' src='images/3.gif' />
-</marquee>
-</div>
+    <div style="position: relative; top: -85%">
+      <marquee direction="right" scrollamount="20">
+        <img class="thirdImage" src="images/3.gif" />
+      </marquee>
+    </div>
 
-<div style = "position:relative; top:-108%;">
-<marquee scrollamount='20'>
-<img class='firstImage' src='images/4.gif' />
-</marquee>
-</div>
-
-</body>
+    <div style="position: relative; top: -108%">
+      <marquee scrollamount="20">
+        <img class="firstImage" src="images/4.gif" />
+      </marquee>
+    </div>
+  </body>
 </html>
